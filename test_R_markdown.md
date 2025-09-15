@@ -1,3 +1,7 @@
+Test Markdown
+================
+2025-09-15
+
 ## R Markdown
 
 This is an R Markdown document. Markdown is a simple formatting syntax
@@ -8,7 +12,9 @@ When you click the **Knit** button a document will be generated that
 includes both content as well as the output of any embedded R code
 chunks within the document. You can embed an R code chunk like this:
 
-    summary(cars)
+``` r
+summary(cars)
+```
 
     ##      speed           dist       
     ##  Min.   : 4.0   Min.   :  2.00  
@@ -22,7 +28,7 @@ chunks within the document. You can embed an R code chunk like this:
 
 You can also embed plots, for example:
 
-![](test_R_markdown_files/figure-markdown_strict/pressure-1.png)
+![](test_R_markdown_files/figure-gfm/pressure-1.png)<!-- -->
 
 Note that the `echo = FALSE` parameter was added to the code chunk to
 prevent printing of the R code that generated the plot.
