@@ -1,0 +1,55 @@
+Git Fundamentals
+
+Briefly explain the following concepts in your own words:
+
+Version Control System (VCS): 
+  software that tracks and records the changes that a user makes to their 
+  files/programs and mediates the sharing of these materials between users. 
+Git Repository: 
+  a set of files that is configured to be mediated by git as a version control 
+  system
+Commit: 
+  an instance of assigning a new reference to the state of a git repository
+  after it has undergone some changes
+Push & Pull: 
+  sharing some commited version of a git repository, with a push 
+  operation corresponding to the case where you send your local changes to a remote 
+  version of the repository, and a pull involving drawing in changes from that
+  repository to your local device.
+Describe two main advantages of using Git for version control in R projects.
+  The materials associated with the project can be tracked as they change in 
+  different ways, enabling you to recover previous forms of the files that may
+  be useful, and also systematizing the process of documenting changes to the work.
+
+
+Git in RStudio
+
+Install and configure Git if you haven’t already.
+Create an R script to load the alcohol consumption dataset (drinks.csv) from https://github.com/fivethirtyeight/data/tree/master/alcohol-consumption.Links to an external site.
+Create a README file describing the script, add it to the local repository.
+Use Git commands in RStudio's terminal to:
+Initialize a new Git repository for your project folder.
+Stage your R script for the next commit.
+Add a commit message explaining the changes you made to the script.
+Repeat for the README file.
+Commit your staged changes to the local repository.
+Briefly explain the difference between "add" and "commit" commands in Git.
+
+GitHub Integration
+
+Create a free account on GitHub.com if you haven't already and report your username.
+Create a new public repository on GitHub and give it a descriptive name, e.g., “BIOS524_HW_3”. Report the URL to this repository.
+Use Git commands in RStudio to:
+Connect your local repository to the newly created GitHub repository.
+Push your local commits to the remote repository on GitHub.
+Verify your changes are successfully reflected on your GitHub repository by visiting it in your browser.
+Briefly describe the benefits of using a public vs. private repository on GitHub for collaboration.
+
+Collaboration and Version Control
+
+Add your instructor or your classmate to your GitHub repository (Hint: you need to ask for their GitHub usernames). 
+Describe how you would:
+Share the project code and data with your partner.
+Track individual contributions and merge code changes without conflicts.
+Revert to a previous version of the code if necessary.
+Clone and fork your classmate’s repository
